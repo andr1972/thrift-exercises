@@ -41,10 +41,10 @@
 		<Unit filename="Hbase.cbp" />
 		<Unit filename="gen-cpp/Hbase.cpp" />
 		<Unit filename="gen-cpp/Hbase.h" />
-		<Unit filename="gen-cpp/Hbase_constants.cpp" />
-		<Unit filename="gen-cpp/Hbase_constants.h" />
-		<Unit filename="gen-cpp/Hbase_types.cpp" />
-		<Unit filename="gen-cpp/Hbase_types.h" />
+		<Unit filename="gen-cpp/hbase1_constants.cpp" />
+		<Unit filename="gen-cpp/hbase1_constants.h" />
+		<Unit filename="gen-cpp/hbase1_types.cpp" />
+		<Unit filename="gen-cpp/hbase1_types.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />
