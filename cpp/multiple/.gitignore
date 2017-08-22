@@ -1,0 +1,11 @@
+/bin/
+/obj/
+*.layout
+*.depend
+multiple_constants.cpp
+multiple_types.cpp
+MultiplicationService.cpp
+MultiplicationService_server.skeleton.cpp
+multiple_constants.h
+multiple_types.h
+MultiplicationService.h
