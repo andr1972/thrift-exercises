@@ -16,3 +16,6 @@ rm java/calculator/src/shared -r -f
 rm java/calculator/src/tutorial -r -f
 rm java/hbase/src/org/apache/hadoop/hbase/thrift/generated -r -f
 rm java/hbase/src/org/apache/hadoop/hbase/thrift2/generated -r -f
+rm cpp/Hbase/bin -r -f
+rm cpp/Hbase/obj -r -f
+rm cpp/Hbase/gen-cpp -r -f
