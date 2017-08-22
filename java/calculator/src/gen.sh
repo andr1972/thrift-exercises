@@ -1,1 +1,0 @@
-thrift -r --out . --gen java calculator.thrift

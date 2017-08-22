@@ -1,1 +1,0 @@
-thrift --out . --gen cpp multiple.thrift
