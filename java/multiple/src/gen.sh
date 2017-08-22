@@ -1,0 +1,1 @@
+thrift --out . --gen java multiple.thrift
