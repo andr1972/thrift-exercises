@@ -1,2 +1,10 @@
+#java
 /java/hbase/src/org/apache/hadoop/hbase/thrift/generated/
 /java/hbase/src/org/apache/hadoop/hbase/thrift2/generated/
+
+
+#cpp
+bin/
+obj/
+*.depend
+*.layout
