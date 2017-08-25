@@ -51,7 +51,7 @@ printRow(const std::vector<TRowResult> &rowResult)
 {
   for (size_t i = 0; i < rowResult.size(); i++) {
     std::cout << "row: " << rowResult[i].row << ", cols: ";
-    for (CellMap::const_iterator it = rowResult[i].columns.begin(); 
+    for (CellMap::const_iterator it = rowResult[i].columns.begin();
          it != rowResult[i].columns.end(); ++it) {
       std::cout << it->first << " => " << it->second.value << "; ";
     }
@@ -71,8 +71,8 @@ printVersions(const std::string &row, const CellVec &versions)
 
 }
 
-int 
-main(int argc, char** argv) 
+int
+main(int argc, char** argv)
 {
   if (argc < 3) {
     std::cerr << "Invalid arguments!\n" << "Usage: DemoClient host port" << std::endl;
@@ -152,11 +152,11 @@ main(int argc, char** argv)
     client.mutateRow(t, "foo", mutations, dummyAttributes);
 
     // try empty strings
-    mutations.clear();
+    /*mutations.clear();
     mutations.push_back(Mutation());
     mutations.back().column = "entry:";
     mutations.back().value = "";
-    client.mutateRow(t, "", mutations, dummyAttributes);
+    client.mutateRow(t, "", mutations, dummyAttributes);*/
 
     // this row name is valid utf8
     mutations.clear();
@@ -223,7 +223,7 @@ main(int argc, char** argv)
       client.getRow(rowResult, t, row, dummyAttributes);
       printRow(rowResult);
 
-      // sleep to force later timestamp 
+      // sleep to force later timestamp
       poll(0, 0, 50);
 
       mutations.clear();
