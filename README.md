@@ -1,9 +1,9 @@
 # thrift-exercises
-Simple examples how to use thrift
+Simple standard examples how to use thrift and Hbase
 
 http://thrift-tutorial.readthedocs.io/en/latest/usage-example.html
 
-Hbase - examples from Hbase
+Hbase - see: https://github.com/apache/hbase
 
 
 ##Running cpp/Hbase/Hbase:
